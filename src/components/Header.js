@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 
 function Header() {
-  const [showHeader, setShowHeader] = useState(false)
+  const [showHeader, setShowHeader] = useState(false);
+  const path = window.location.pathname
   return (
     <div className='header'>
 
@@ -17,10 +18,10 @@ function Header() {
 
 
         <ul className={`${ showHeader  ? 'show-header' : 'hide-header'} n-box1`}>
-          <li><Link>Home</Link></li>
-          <li><Link>Projects</Link></li>
-          <li><Link>About Me</Link></li>
-          <li><Link>Contact</Link></li>
+          <li className={`${path=='/' && 'active'}`}><Link to='/'>Home</Link></li>
+          <li className={`${path=='/projects' && 'active'}`}><Link to='/projects'>Projects</Link></li>
+          <li className={`${path=='/about' && 'active'}`}><Link to='/about'>About</Link></li>
+          <li className={`${path=='/contact' && 'active'}`}><Link to='/contact'>Contact</Link></li>
         </ul>
     </div>
   )

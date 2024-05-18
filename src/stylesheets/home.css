@@ -26,4 +26,22 @@
   height: 45px;
   border-radius: 25px;
   border: none;
+  width: 50%;
+}
+
+@media (max-width:750px) {
+  .introduction div h1 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 48px;
+  }
+
+  .primary-button {
+    background-color: white;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    width: auto;
+    padding: 5px 15px;
+  }
 }

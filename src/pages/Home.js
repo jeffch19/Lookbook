@@ -13,8 +13,8 @@ function Home() {
           <h1>Jeff Cummings</h1>
 
           <div className='intro-content d-flex justify-content-between' >
-            <p>Software Engineer <br /> MERN Stack, Cloud Enthusiast</p>
-            <button className='primary-button font-bold w-50'> Get Started </button>
+            <p>Software Engineer <br /> MERN Stack , <br /> Cloud Enthusiast</p>
+            <button className='primary-button font-bold'> Get Started </button>
           </div>
         </div>
 
