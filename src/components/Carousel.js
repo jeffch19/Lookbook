@@ -10,35 +10,35 @@ function Carousel() {
 
       <div className='gallery'>
 
-        <span>
+        <span style={{'--i' : 1}}>
           <FaReact color='cyan'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 2}}>
           <FaHtml5 color='orange'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 3}}>
           <FaAws color='#FF990'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 4}}>
           <FaNodeJs color='green'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 5}}>
           <FaJsSquare color='yellow'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 6}}>
           <FaBootstrap color='blue'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 7}}>
           <FaCss3 color='blue'/>
         </span>
 
-        <span>
+        <span style={{'--i' : 8}}>
           <FaPython color='#306998'/>
         </span>
 
