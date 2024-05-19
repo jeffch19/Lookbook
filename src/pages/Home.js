@@ -75,6 +75,65 @@ function Home() {
       </div>
 
 
+    <div className='container mt-5 n-box2 py-5'>
+
+      <div className='text-center'>
+    <h3 className='font-bold text-center'> My Development Stack</h3>
+    <img src="./assets/developer.svg" alt="" height='200' width="200" className='text-center'/>
+    </div>
+
+
+    <div className='row'>
+      <div className='col-md-4'>
+        <div className='font-bold'>
+          <h3 className='font-bold'> Front End Technologies</h3>
+          <hr />
+          <p>HTML</p>
+          <p>JavaScript</p>
+          <p>Python</p>
+          <p>React</p>
+          <p>jQuery</p>
+          <p>Progressive Web Applications (PWA)</p>
+          <p>CSS</p>
+
+        </div>
+
+      </div>
+
+      <div className='col-md-4'>
+        <div className='font-bold'>
+          <h3 className='font-bold'> UI/Styling</h3>
+          <hr />
+          <p>Tailwind CSS</p>
+          <p>Bootstrap</p>
+          <p>AntDesign</p>
+          <p>Semantic UI</p>
+          <p>Material UI</p>
+
+
+        </div>
+
+      </div>
+
+      <div className='col-md-4'>
+        <div className='font-bold'>
+          <h3 className='font-bold'> Back End Technologies</h3>
+          <hr />
+          <p>HTML</p>
+          <p>JavaScript</p>
+          <p>Python</p>
+          <p>React</p>
+          <p>jQuery</p>
+          <p>Progressive Web Applications (PWA)</p>
+          <p>CSS</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+
 
     </div>
   )
