@@ -75,13 +75,16 @@ function Home() {
       </div>
 
 
-    <div className='container mt-5 n-box2 py-5'>
+    <div className='devstack container my-5 n-box2 py-5'>
 
       <div className='text-center'>
     <h3 className='font-bold text-center'> My Development Stack</h3>
+    <hr />
     <img src="./assets/developer.svg" alt="" height='200' width="200" className='text-center'/>
+    
     </div>
 
+    
 
     <div className='row'>
       <div className='col-md-4'>
@@ -101,7 +104,7 @@ function Home() {
       </div>
 
       <div className='col-md-4'>
-        <div className='font-bold'>
+        <div className='font-bold text-center'>
           <h3 className='font-bold'> UI/Styling</h3>
           <hr />
           <p>Tailwind CSS</p>
@@ -116,16 +119,16 @@ function Home() {
       </div>
 
       <div className='col-md-4'>
-        <div className='font-bold'>
-          <h3 className='font-bold'> Back End Technologies</h3>
+        <div className='font-bold text-end'>
+          <h3 className='font-bold'> Back End/DB</h3>
           <hr />
-          <p>HTML</p>
-          <p>JavaScript</p>
-          <p>Python</p>
-          <p>React</p>
-          <p>jQuery</p>
-          <p>Progressive Web Applications (PWA)</p>
-          <p>CSS</p>
+          <p>NodeJs</p>
+          <p>Express</p>
+          <p>SQL</p>
+          <p>MongoDB</p>
+          <p>GraphQL</p>
+          <p>APIs</p>
+          <p>REST</p>
 
         </div>
 
