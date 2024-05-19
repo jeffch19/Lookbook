@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Montserrat", sans-serif;
+  background-color: #EBECF0;
 }
 body , html {
   overflow-x: hidden;
@@ -39,4 +40,11 @@ code {
 background: linear-gradient(145deg, #00101d, #001322);
 box-shadow:  5px 5px 10px #00070d,
              -5px -5px 10px #001d33;
+}
+
+.n-box2 {
+  border-radius: 50px;
+background: #EBECF0;
+box-shadow:  5px 5px 0px #cacbce,
+             -5px -5px 0px #ffffff;
 }
