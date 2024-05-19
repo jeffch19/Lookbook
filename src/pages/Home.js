@@ -138,6 +138,26 @@ function Home() {
     </div>
 
 
+    <div>
+
+    <h3 className='font-bold text-center'>Who is Jeff?</h3>
+    <div className='who-is-jeff flex-with-center' style={{backgroundImage:`url('/assets/whoisjeff.svg')`}}>
+
+<div>
+  <h3>Hi , Hello , Namaste ...</h3>
+  <hr />
+  <p><pre>{JSON.stringify({
+    name: "Jeff Cummings",
+    from: "Philadelphia, PA",
+    age: 25,
+    gender: "Male"
+  } , null , 2)}</pre></p>
+</div>
+
+</div>
+    </div>
+
+
     </div>
   )
 }

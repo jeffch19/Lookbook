@@ -42,6 +42,24 @@
   box-shadow: none;
 }
 
+.who-is-jeff {
+  background-size: 100% 100%;
+  height: 75vh;
+  color: white;
+  transition: all 0.5s;
+  overflow: hidden !important;
+}
+
+/* .who-is-jeff:hover {
+  transform: scale(1.05);
+  overflow: hidden !important;
+} */
+
+pre{
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
 @media (max-width:750px) {
   .introduction div h1 {
     font-weight: bold;
@@ -56,5 +74,16 @@
     border: none;
     width: auto;
     padding: 5px 15px;
+  }
+  .who-is-jeff {
+    background-size: 180% 100%;
+    height: 100vh;
+    color: white;
+    background-position: center;
+  }
+  
+  pre{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif !important;
   }
 }
