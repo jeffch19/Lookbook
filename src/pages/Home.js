@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import Carousel from '../components/Carousel'
 
 function Home() {
   return (
@@ -16,10 +17,11 @@ function Home() {
             <p>Software Engineer <br /> MERN Stack , <br /> Cloud Enthusiast</p>
             <button className='primary-button font-bold'> Get Started </button>
           </div>
+          
         </div>
-
+        
       </div>
-
+      <Carousel />
     </div>
   )
 }
