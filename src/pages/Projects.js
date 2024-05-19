@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 import { FaLaptopCode } from 'react-icons/fa'
+import projectsdata from './projectsdata'
+
 
 function Projects() {
   return (
@@ -9,11 +11,11 @@ function Projects() {
       <div className='container projects-intro'>
 
         <div className='row flex-with-center mt-5'>
-          <div className='col-md-6 n-box2 p-3'>
+          <div className='col-md-6 n-box2 px-3 py-5'>
 
             <div>
-              <h1>Projects</h1>
-              <p>Good ideas are not adopted automatically. They must be driven into practice with courageous patience.</p>
+              <h1 className='font-bold'>Projects</h1>
+              <p className='font-bold'>Good ideas are not adopted automatically. They must be driven into practice with courageous patience.</p>
               <button className='primary-button'>Get Started</button>
             </div>
 
@@ -34,6 +36,25 @@ function Projects() {
             className='position-absolute top-50 start-50 translate-middle'/>
           </div>
         </div>
+      </div>
+
+
+
+      <div className='container projects-list'>
+        <h3 className='font-bold'>Take a look of our projects</h3>
+        <hr />
+
+        <div className='row'>
+          {projectsdata.map(project=>{
+            return <div className='col-md-4'>
+              <div className='position-relative project'> 
+              <img src={project.image} alt='' />
+              </div> 
+               </div>
+          })}
+
+        </div>
+
       </div>
     </div>
   )

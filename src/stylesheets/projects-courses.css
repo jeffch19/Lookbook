@@ -3,3 +3,14 @@
   color: white;
   font-weight: bold;
 }
+
+.project {
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.486);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.project img {
+  height: 220px;
+  width: 100%;
+}
