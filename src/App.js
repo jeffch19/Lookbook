@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import './stylesheets/home.css';
 import './stylesheets/header-footer.css';
 import './stylesheets/carousel.css';
+import './stylesheets/projects-courses.css';
 
 
 function App() {
