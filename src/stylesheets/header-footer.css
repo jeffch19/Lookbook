@@ -66,6 +66,10 @@ ul a {
   font-weight: bold;
 }
 
+.contact {
+  padding-top: 50px;
+}
+
 .contact img {
   height: 50vh;
   width: 100%;
@@ -81,8 +85,17 @@ input, textarea  {
                border-radius: 20px !important;
 }
 
+.form-control:focus {
+  transform: scale(1.02);
+}
 .form-control {
   box-shadow: none ;
+}
+
+.contact button {
+  background-color: rgba(0,0,255,0.856);
+  color: white;
+  font-weight: bold;
 }
 
 
@@ -140,5 +153,15 @@ input, textarea  {
     color: orangered;
     font-size: 45px;
     z-index: 3;
+  }
+
+  .contact {
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
+
+  .contact-form {
+    padding: 15px !important;
+    margin: 15px !important;
   }
 }

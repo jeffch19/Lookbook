@@ -11,10 +11,12 @@ function Contact() {
         </div>
         <div className='col-md-6'>
           <div className='contact-form m-2 p-5 n-box2'>
+            <h3 className='font-bold'>Contact Me</h3>
+            <hr />
             <input type="text" className='form-control' placeholder='Name'/>
-            <input type="text" className='form-control' placeholder='Name'/>
-            <textarea className='form-control' rows={3} defaultValue={""}/>
-            <button className='primary-button mt-5'>SUBMIT</button>
+            <input type="text" className='form-control' placeholder='Email'/>
+            <textarea className='form-control' rows={3} defaultValue={""} placeholder='Message . . .'/>
+            <button className='primary-button mt-3'>SUBMIT</button>
           </div>
         </div>
       </div>
