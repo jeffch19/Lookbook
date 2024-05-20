@@ -41,7 +41,7 @@ function Projects() {
 
 
       <div className='container projects-list'>
-        <h3 className='font-bold'>Take a look of our projects</h3>
+        <h3 className='font-bold'>Take a look at my projects</h3>
         <hr />
 
         <div className='row'>
