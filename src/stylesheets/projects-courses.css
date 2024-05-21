@@ -57,6 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
  
 }
 
@@ -65,6 +66,7 @@
   color: white;
   border-left: 5px solid cyan;
   padding-left: 30px;
+  animation: courses-intro-animation 10s linear infinite;
 }
 
 .courses-intro-content h1 {
@@ -79,7 +81,111 @@
   border-right: 2px solid white;
 }
 
+.why-jeff-parent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+/* this one does the border the one below does the img*/
+.why-jeff {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.why-jeff img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.why-jeff img:hover {
+  transform: scale(1.5);
+  background-color: #EBECF0 !important;
+  background: #EBECF0 !important;
+box-shadow:  5px 5px 0px #cacbce,
+             -5px -5px 0px #ffffff !important;
+             color: black;
+             font-weight: bold !important;
+             transition: all 0.5s;
+}
+
+.why-jeff:hover {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  transform: scale(1.5);
+  background-color: #EBECF0 !important;
+  background: #EBECF0 !important;
+box-shadow:  5px 5px 0px #cacbce,
+             -5px -5px 0px #ffffff !important;
+             color: black;
+             font-weight: bold !important;
+             transition: all 0.5s;
+}
+
+
+.why-jeff-content {
+  display: none;
+}
+
+.why-jeff:hover > .why-jeff-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width:750px) {
+  .courses-intro-content {
+    width: 1000%;
+    color: white;
+    border-left: 2px solid white;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .courses-intro-content h1 {
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    
+  }
+
+  .courses-intro-content p {
+    padding: 10px;
+  }
+}
+
 @keyframes project-animation {
+
+  0%{
+transform: rotate(-5deg);
+  }
+
+  25%{
+transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+
+}
+
+
+@keyframes courses-intro-animation {
 
   0%{
 transform: rotate(-5deg);
