@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import Header from '../components/Header';
 
 function Contact() {
   const [values, setValues] = useState({
@@ -58,6 +59,7 @@ function Contact() {
 
   return (
     <div>
+      <Header />
       <div className='container contact mt-5'>
         <div className='row pt-5'>
           <div className='col-md-6 p-5'>

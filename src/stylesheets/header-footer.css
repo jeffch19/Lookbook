@@ -98,6 +98,23 @@ input, textarea  {
   font-weight: bold;
 }
 
+.footer-content {
+  background-color: #001220;
+  text-align: center;
+  color: white;
+}
+
+.footer-icons svg {
+  color: white;
+
+}
+
+.footer-icons:hover {
+  color: cyan;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
 
 
 
