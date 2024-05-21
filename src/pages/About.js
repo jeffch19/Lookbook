@@ -21,15 +21,10 @@ function About() {
       <div className='why-jeff-parent'>
         <div className='why-jeff n-box1 flex-with-center'>
           {/* <h1></h1> */}
-          <img src="./assets/me.jpg" alt="" />
-          <div className='why-jeff-content'>
           
-            <p>Greetings, digital wanderer! I'm Jeff Cummings. With a keyboard as my wand 
-              and caffeine as my elixer, I navigate the ever-evolving tech landscape using
-              JavaScript, Python, and other tools of the trade. When I'm not debugging or developing
-              innovative applications, you might find me exploring new technologies, playing soccer,
-              or walking my dogs! Welcome to my portfolio, where creativity meets functionality and every project 
-              tells a story.
+          <div className='why-jeff-content'>
+          <img src="./assets/me.jpg" alt="" />
+            <p>Greetings! I'm Jeff Cummings. With JavaScript, Python, and caffeine, I navigate the tech landscape. When I'm not coding, I'm exploring new tech, playing soccer, or walking my dogs. Welcome to my portfolio, where creativity meets functionality.
             </p>
           </div>
         </div>

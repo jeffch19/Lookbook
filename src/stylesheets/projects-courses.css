@@ -90,56 +90,60 @@
   border-radius: 50px;
 }
 
-/* this one does the border the one below does the img*/
 .why-jeff {
+  position: relative;
   height: 300px;
   width: 300px;
   border-radius: 50px;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out; /* Smooth transition for scaling */
 }
 
-.why-jeff img {
-  height: 300px;
-  width: 300px;
-  border-radius: 50px;
+.why-jeff-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-.why-jeff img:hover {
-  transform: scale(1.5);
-  background-color: #EBECF0 !important;
-  background: #EBECF0 !important;
-box-shadow:  5px 5px 0px #cacbce,
-             -5px -5px 0px #ffffff !important;
-             color: black;
-             font-weight: bold !important;
-             transition: all 0.5s;
+.why-jeff-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  z-index: 1; /* Ensure the image is behind the text on hover */
+}
+
+.why-jeff-content p {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.80);
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  overflow-y: auto;
+  z-index: 2; /* Bring the text to the front on hover */
+  opacity: 0; /* Start invisible */
+  transition: opacity 0.5s ease-in-out; /* Fade in smoothly */
+}
+
+.why-jeff:hover img {
+  opacity: 0; /* Hide the image on hover */
+}
+
+.why-jeff:hover p {
+  display: block;
+  opacity: 1; /* Make the text visible on hover */
 }
 
 .why-jeff:hover {
-  height: 300px;
-  width: 300px;
-  border-radius: 50px;
-  transform: scale(1.5);
-  background-color: #EBECF0 !important;
-  background: #EBECF0 !important;
-box-shadow:  5px 5px 0px #cacbce,
-             -5px -5px 0px #ffffff !important;
-             color: black;
-             font-weight: bold !important;
-             transition: all 0.5s;
-}
-
-
-.why-jeff-content {
-  display: none;
-}
-
-.why-jeff:hover > .why-jeff-content {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  transform: scale(1.5); /* Slightly enlarge the entire content on hover */
 }
 
 @media(max-width:750px) {
