@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import certdata from './certdata'
 
 function About() {
   return (
@@ -30,6 +31,33 @@ function About() {
         </div>
 
       
+      </div>
+
+
+
+
+
+      <div className='container courses-list mb-5'>
+        <h3 className='font-bold'>Certificates / Awards / Recommendations</h3>
+        <hr />
+
+        <div className='row mt-5'>
+          {certdata.map(cert=>{
+            return <div className='col-md-4 '>
+              <div className='position-relative course'> 
+              <img src={cert.image} alt='' className='w-100'/>
+              <div className='course-content w-100'> 
+                <h3>{cert.title}</h3>
+                <hr />
+                <p>{cert.description}</p>
+                <button className='primary-button' onClick={() => window.open(cert.link, '_blank')}>DEMO</button>
+              </div>
+              </div> 
+               </div>
+          })}
+
+        </div>
+
       </div>
     </div>
   )
