@@ -12,7 +12,7 @@ function About() {
           <h1>Resume / Bio</h1>
           <div>
             <p> "Turning challenges into opportunities through creativity and perseverance."</p>
-            <button className='primary-button'>DOWNLOAD RESUME</button>
+            <button className='primary-button'>VIEW RESUME</button>
           </div>
         </div>
 
@@ -50,7 +50,7 @@ function About() {
                 <h3>{cert.title}</h3>
                 <hr />
                 <p>{cert.description}</p>
-                <button className='primary-button' onClick={() => window.open(cert.link, '_blank')}>DEMO</button>
+                <button className='primary-button' onClick={() => window.open(cert.link, '_blank')}>CLICK TO VIEW</button>
               </div>
               </div> 
                </div>

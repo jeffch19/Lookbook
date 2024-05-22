@@ -11,7 +11,7 @@ function Home() {
       <div className='introduction flex-with-center' style={{ backgroundImage: `url('./assets/introbg.svg')` }}>
 
         <div>
-          <h1>Jeff Cummings</h1>
+          <h1 data-aos='fade-up'>Jeff Cummings</h1>
 
           <div className='intro-content d-flex justify-content-between' >
             <p>Software Engineer <br /> MERN Stack , <br /> Cloud Enthusiast</p>
@@ -31,7 +31,7 @@ function Home() {
         <div className='row justify-content-start'>
           <div className='col-md-4'>
 
-            <div className='n-box2 p-5 font-bold'> 
+            <div className='n-box2 p-5 font-bold' data-aos='fade-right'> 
               <h1> Yes you are right...</h1>
               <br />
               <p>I am a JavaScript Buff...</p>
@@ -48,7 +48,7 @@ function Home() {
           <div className='col-md-4'>
 
             <div>
-              <img src="./assets/jsbuff.svg" alt="" height="200" className='w-100' />
+              <img src="./assets/jsbuff.svg" alt="" height="200" className='w-100' data-aos='fade-up'/>
 
             </div>
 
@@ -62,7 +62,7 @@ function Home() {
         <div className='row pt-5 justify-content-end'>
           <div className='col-md-4'>
 
-            <div className='n-box2 p-5 font-bold'>
+            <div className='n-box2 p-5 font-bold' data-aos='fade-left'>
               <p>JavaScript is one of the most top-ranked programming languages because of
                 its ubiquitous use on all platforms and mass adoption. Main Use Cases: Web Development.
               </p>

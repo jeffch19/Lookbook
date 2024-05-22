@@ -11,9 +11,9 @@ function Projects() {
       <div className='container projects-intro'>
 
         <div className='row flex-with-center mt-5'>
-          <div className='col-md-6 n-box2 px-3 py-5'>
+          <div className='col-md-6 n-box2 px-3 py-5' data-aos='fade-down'>
 
-            <div>
+            <div >
               <h1 className='font-bold'>Projects</h1>
               <p className='font-bold'>Good ideas are not adopted automatically. They must be driven into practice with courageous patience.</p>
               <button className='primary-button'>Get Started</button>
@@ -53,7 +53,7 @@ function Projects() {
                 <h3>{project.title}</h3>
                 <hr />
                 <p>{project.description}</p>
-                <button className='primary-button' onClick={() => window.open(project.link, '_blank')}>DEMO</button>
+                <button className='primary-button' onClick={() => window.open(project.link, '_blank')}>CLICK TO VIEW</button>
               </div>
               </div> 
                </div>

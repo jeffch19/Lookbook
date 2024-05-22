@@ -18,7 +18,7 @@ const certdata = [
     image:
       "./assets/linkedin-icon-2.svg",
 
-    link: "/",
+    link: "https://www.linkedin.com/in/jeff-cummings-782a24170/details/recommendations/?detailScreenTabIndex=0",
   },
   
 ];
