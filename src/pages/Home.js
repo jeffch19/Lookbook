@@ -15,7 +15,7 @@ function Home() {
 
           <div className='intro-content d-flex justify-content-between' >
             <p>Software Engineer <br /> MERN Stack , <br /> Cloud Enthusiast</p>
-            <button className='primary-button font-bold'> Get Started </button>
+            <button className='primary-button font-bold' ><a href='#carousel'>Get Started</a>  </button>
           </div>
 
         </div>
@@ -126,9 +126,9 @@ function Home() {
           <p>Express</p>
           <p>SQL</p>
           <p>MongoDB</p>
-          <p>GraphQL</p>
-          <p>APIs</p>
-          <p>REST</p>
+          <p>Quality Assurance (Unit Testing, Linting, Continuous Integration)</p>
+          <p>APIs (REST, JSON, AJAX, GraphQL, HTTP, Client-Server)</p>
+          
 
         </div>
 

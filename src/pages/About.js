@@ -12,7 +12,7 @@ function About() {
           <h1>Resume / Bio</h1>
           <div>
             <p> "Turning challenges into opportunities through creativity and perseverance."</p>
-            <button className='primary-button'>VIEW RESUME</button>
+            <button className='primary-button' onClick={() => window.open('https://docs.google.com/document/d/1gwar_dsS5eUSnXEu0okDd9-La1OrL_BcdqXn9ckzphk/edit?usp=sharing', '_blank')}>VIEW RESUME</button>
           </div>
         </div>
 

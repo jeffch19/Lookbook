@@ -16,7 +16,7 @@ function Projects() {
             <div >
               <h1 className='font-bold'>Projects</h1>
               <p className='font-bold'>Good ideas are not adopted automatically. They must be driven into practice with courageous patience.</p>
-              <button className='primary-button'>Get Started</button>
+              <button className='primary-button projects-btn' ><a href='#projects-list' className='white'>Get Started</a></button>
             </div>
 
           </div>
@@ -40,7 +40,7 @@ function Projects() {
 
 
 
-      <div className='container projects-list'>
+      <div className='container projects-list' id='projects-list'>
         <h3 className='font-bold'>Take a look at my projects</h3>
         <hr />
 
