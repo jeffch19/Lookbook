@@ -34,7 +34,7 @@ function Home() {
             <div className='n-box2 p-5 font-bold' data-aos='fade-right'> 
               <h1> Yes you are right...</h1>
               <br />
-              <p>I am a MERN stack enthusiast...</p>
+              <p>I am a Full Stack enthusiast...</p>
             </div>
 
           </div>
