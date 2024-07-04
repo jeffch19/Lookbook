@@ -93,7 +93,6 @@ function Home() {
           <hr />
           <p>HTML</p>
           <p>JavaScript</p>
-          <p>Python</p>
           <p>React</p>
           <p>jQuery</p>
           <p>Progressive Web Applications (PWA)</p>
@@ -122,6 +121,7 @@ function Home() {
         <div className='font-bold text-end'>
           <h3 className='font-bold'> Back End/DB</h3>
           <hr />
+          <p>C#/.NET</p>
           <p>NodeJs</p>
           <p>Express</p>
           <p>SQL</p>

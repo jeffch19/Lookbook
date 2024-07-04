@@ -1,5 +1,7 @@
 import React from 'react'
 import {FaAws, FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaNodeJs, FaPython, FaReact} from 'react-icons/fa'
+import { TbBrandCSharp } from "react-icons/tb";
+
 
 function Carousel() {
   return (
@@ -21,6 +23,10 @@ function Carousel() {
         <span style={{'--i' : 3}}>
           <FaAws color='#FF990'/>
         </span>
+        
+        <span style={{'--i' : 7}}>
+          <FaCss3 color='blue'/>
+        </span>
 
         <span style={{'--i' : 4}}>
           <FaNodeJs color='green'/>
@@ -34,12 +40,9 @@ function Carousel() {
           <FaBootstrap color='blue'/>
         </span>
 
-        <span style={{'--i' : 7}}>
-          <FaCss3 color='blue'/>
-        </span>
 
         <span style={{'--i' : 8}}>
-          <FaPython color='#306998'/>
+          <TbBrandCSharp color='#306998'/>
         </span>
 
       </div>
