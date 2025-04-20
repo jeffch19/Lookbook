@@ -121,13 +121,14 @@ function Home() {
         <div className='font-bold text-end'>
           <h3 className='font-bold'> Back End/DB</h3>
           <hr />
-          <p>C#/.NET</p>
+          <p>Python</p>
           <p>NodeJs</p>
           <p>Express</p>
           <p>SQL</p>
           <p>MongoDB</p>
           <p>Quality Assurance (Unit Testing, Linting, Continuous Integration)</p>
           <p>APIs (REST, JSON, AJAX, GraphQL, HTTP, Client-Server)</p>
+          <p>PyTorch</p>
           
 
         </div>
@@ -149,7 +150,7 @@ function Home() {
   <p><pre>{JSON.stringify({
     name: "Jeff Cummings",
     from: "Philadelphia, PA",
-    age: 25,
+    age: 26,
     gender: "Male"
   } , null , 2)}</pre></p>
 </div>

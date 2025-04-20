@@ -25,7 +25,7 @@ function Carousel() {
         </span>
         
         <span style={{'--i' : 7}}>
-          <FaCss3 color='blue'/>
+          <FaCss3 color='4D89FF'/>
         </span>
 
         <span style={{'--i' : 4}}>
@@ -37,12 +37,12 @@ function Carousel() {
         </span>
 
         <span style={{'--i' : 6}}>
-          <FaBootstrap color='blue'/>
+          <FaBootstrap color='563d7c'/>
         </span>
 
 
         <span style={{'--i' : 8}}>
-          <TbBrandCSharp color='#306998'/>
+          <FaPython color='#000080'/>
         </span>
 
       </div>
