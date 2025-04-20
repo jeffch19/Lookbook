@@ -14,7 +14,7 @@ function Home() {
           <h1 data-aos='fade-up'>Jeff Cummings</h1>
 
           <div className='intro-content d-flex justify-content-between' >
-            <p>Software Engineer <br /> MERN Stack , <br /> Cloud Enthusiast</p>
+            <p>IT Director / Software Engineer <br /> <br /> MERN Stack , <br /> Cloud Technologies , <br /> Python & AI Enthusiast </p>
             <button className='primary-button font-bold' ><a href='#carousel'>Get Started</a>  </button>
           </div>
 
@@ -34,7 +34,7 @@ function Home() {
             <div className='n-box2 p-5 font-bold' data-aos='fade-right'> 
               <h1> Yes you are right...</h1>
               <br />
-              <p>I am a Full Stack enthusiast...</p>
+              <p>I'm a Full Stack Developer who also speaks fluent Python and explores the world of AI.</p>
             </div>
 
           </div>
@@ -63,8 +63,7 @@ function Home() {
           <div className='col-md-4'>
 
             <div className='n-box2 p-5 font-bold' data-aos='fade-left'>
-              <p>JavaScript is one of the most top-ranked programming languages because of
-                its ubiquitous use on all platforms and mass adoption. Main Use Cases: Web Development.
+              <p>From building dynamic web apps using JavaScript and the MERN stack, to diving into data and AI models with Python and PyTorch—I'm passionate about creating solutions that bridge both user experience and smart technology.
               </p>
 
             </div>
