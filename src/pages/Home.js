@@ -14,7 +14,7 @@ function Home() {
           <h1 data-aos='fade-up'>Jeff Cummings</h1>
 
           <div className='intro-content d-flex justify-content-between' >
-            <p>IT Director / Software Engineer <br /> <br /> MERN Stack , <br /> Cloud Technologies , <br /> Python & AI Enthusiast </p>
+            <p>IT Director / Web Developer <br /> <br /> MERN Stack , <br /> Cloud Technologies , <br /> Python & AI Enthusiast </p>
             <button className='primary-button font-bold' ><a href='#carousel'>Get Started</a>  </button>
           </div>
 
